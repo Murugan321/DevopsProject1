@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: muruganhub/tasl-prod:16   # replace with your Docker-image pushed on Dockerhub
+        image: muruganhub/tasl-prod:41
       imagePullSecret:
       - name: secretdocker
         ports:
