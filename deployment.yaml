@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: muruganhub/tasl-prod:41
+        image: muruganhub/tasl-prod:42
       imagePullSecret:
       - name: secretdocker
         ports:
