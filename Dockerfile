@@ -1,4 +1,4 @@
-FROM openjdk:17-jre-slim
+FROM openjdk:8
 WORKDIR /app1
 ADD target/devops-integration.jar /app/devops-integration.jar
 RUN groupadd appuser && useradd -r -g appuser appuser
